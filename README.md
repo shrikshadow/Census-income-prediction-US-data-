@@ -1,5 +1,7 @@
 Project Overview
-This project involves a comprehensive analysis of the UCI Census Income Dataset (containing over 48,000 records). The goal is to identify key socio-economic drivers—such as education, occupation, and age—that influence an individual's earning potential and to build a predictive model to classify individuals into income brackets (>50K or ≤50K).
+This project involves a comprehensive analysis of the UCI Census Income Dataset (containing over 48,000 records). 
+
+The goal is to identify key socio-economic drivers—such as education, occupation, and age—that influence an individual's earning potential and to build a predictive model to classify individuals into income brackets (>50K or ≤50K).
 
 Key Features
 Data Cleaning & Imputation: Handled missing values using Mode Imputation to maintain dataset integrity.
@@ -27,4 +29,10 @@ Occupation: Roles such as "Exec-managerial" and "Prof-specialty" were identified
 Demographics: Age and work-class distribution provided significant context for earning trends.
 
 Model Performance
-The classification models were evaluated based on accuracy: | Algorithm | Accuracy | | :--- | :--- | | Logistic Regression | 83% | | Decision Tree Classifier | 82% | | Principal Component Analysis (PCA) | 81% | | Linear Discriminant Analysis (LDA) | 76% |
+The classification models were evaluated based on accuracy: 
+| Algorithm                          | Accuracy |
+| :---                               | :---     | 
+| Logistic Regression                | 83% | 
+| Decision Tree Classifier           | 82% |
+| Principal Component Analysis (PCA) | 81% | 
+| Linear Discriminant Analysis (LDA) | 76% |
